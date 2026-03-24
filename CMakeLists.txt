@@ -2,7 +2,7 @@
 ## Top-level CMakeLists.txt to build and install the whole Orocos Toolchain
 ##
 
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 
 # capture CMake arguments specified at the command-line
 # (taken from https://stackoverflow.com/a/48555098)
@@ -196,4 +196,3 @@ endif()
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/orocos_toolchain)
   add_subdirectory(orocos_toolchain)
 endif()
-
